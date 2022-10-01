@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+main {
+    width: 500px;
+    border: solid 2px steelblue;
+    padding: 2rem;
+    text-align: center;
+}
+main h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: square;
+}
+ul li {
+    font-size: 2rem;
+    padding: .5rem 0;
+}
